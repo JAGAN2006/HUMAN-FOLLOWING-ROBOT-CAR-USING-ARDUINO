@@ -43,21 +43,21 @@ Typical hobby ultrasonic sensors (HC-SR04 family) reliably measure up to about 3
 
 **Practical wiring (pin map from your code)**
 
-IR_LEFT → digital pin 2 (INPUT)
-
-IR_RIGHT → digital pin 3 (INPUT)
-
-Ultrasonic TRIG → digital pin 11 (OUTPUT)
-
-Ultrasonic ECHO → digital pin 12 (INPUT)
-
-L298N IN1/IN2 left → left1 (9), left2 (10)
-
-L298N IN3/IN4 right → right1 (7), right2 (8)
-
-L298N ENA → enLeft (5 PWM)
-
-L298N ENB → enRight (6 PWM)
+  IR_LEFT → digital pin 2 (INPUT)
+  
+  IR_RIGHT → digital pin 3 (INPUT)
+  
+  Ultrasonic TRIG → digital pin 11 (OUTPUT)
+  
+  Ultrasonic ECHO → digital pin 12 (INPUT)
+  
+  L298N IN1/IN2 left → left1 (9), left2 (10)
+  
+  L298N IN3/IN4 right → right1 (7), right2 (8)
+  
+  L298N ENA → enLeft (5 PWM)
+  
+  L298N ENB → enRight (6 PWM)
 (Also connect grounds together: Arduino GND, motor battery negative, L298N GND.)
 
 **Conclusion:**
